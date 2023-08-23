@@ -1,0 +1,90 @@
+/* styles.css */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+nav { text-align: left; }
+
+a { 
+  text-decoration: none; 
+  text-align: left;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.recipe-container {
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title-text {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.title-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.cook {
+  display: flex;
+  justify-content: space-around; 
+  align-items: flex-start;
+}
+
+.ingredients,
+.step-by-step {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.ingredients h2,
+.step-by-step h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.ingredients ul,
+.step-by-step ol {
+  margin-left: 20px;
+  padding: 0;
+}
+
+.ingredients li,
+.step-by-step li {
+  margin-bottom: 5px;
+}
+
+ul li { font-size: 16px;}
+
+ol li { font-size: 18px;}

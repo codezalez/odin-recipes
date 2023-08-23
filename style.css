@@ -14,7 +14,7 @@ body {
   border-radius: 10px;
 }
 
-h1 {
+.container.h1 {
   font-size: 3em;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
@@ -36,13 +36,17 @@ h1 {
   cursor: pointer;
 }
 
-#recipes h2 { text-align: center; font-family: Arial, Helvetica, sans-serif;}
+#recipes h2 { 
+  text-align: center; 
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 a { text-decoration: none; }
 
-.pasta, .casserole, .rice {
+.pasta, 
+.casserole, 
+.rice {
   width: 25vw;
   border-radius: 5%;
   margin-top: 0.8rem;
 }
-
