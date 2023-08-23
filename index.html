@@ -3,12 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Recipes</title>
 </head>
 <body>
-  <h1>Odin Recipes</h1>
-  <h2><a href="recipes/greek-chicken-pasta.html">Greek Chicken Pasta</a></h2>
-  <h2><a href="recipes/ground-beef-casserole.html">Ground Beef Casserole</a></h2>
-  <h2><a href="recipes/pork-fried-rice.html">Pork Fried Rice</a></h2>
+  <div class="container">
+    <h1>Odin Recipes</h1>
+
+    <div id="recipes">
+      <div 
+        onclick="window.location.href = 'recipes/greek-chicken-pasta.html'" 
+      >
+        <img 
+          class="pasta"
+          src="images/pasta.webp" 
+          alt="Greek Chicken Pasta Recipe"
+        >
+        <h2>Greek Chicken Pasta</h2>
+      </div>
+
+      <div 
+        onclick="window.location.href = 'recipes/ground-beef-casserole.html'" 
+      >
+        <img 
+          class="casserole"
+          src="images/casserole.webp" 
+          alt="Ground Beef Casserole Recipe"
+        >
+        <h2>Ground Beef Casserole</h2>
+      </div>
+
+      <div 
+        onclick="window.location.href = 'recipes/pork-fried-rice.html'"
+      >
+        <img 
+          class="rice"
+          src="images/rice.webp" 
+          alt="Pork Fried Rice Recipe"
+        >
+        <h2>Pork Fried Rice</h2>
+      </div>  
+    </div>
+  </div>
 </body>
 </html>
